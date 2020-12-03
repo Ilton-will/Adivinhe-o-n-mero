@@ -1,7 +1,7 @@
 html {
     font-family: sans-serif;
   }
-  body {
+  .container {
     width: 50%;
     max-width: 800px;
     min-width: 480px;
@@ -10,4 +10,19 @@ html {
   .ultimoResultado {
     color: white;
     padding: 3px;
+}
+
+@media (max-width: 939px){
+    .container{
+      display: block;
+      margin: 0 auto;
+      width: 95%;
+    }
+    h1{
+      font-size: 40px;
+    }
+    p{
+      font-size: 18px;
+    }
+
 }
